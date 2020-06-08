@@ -7,4 +7,4 @@ For example my cascade location is in "C:\Users\yourUserName\AppData\Local\Progr
 This project can be used for example in security places for saving the picture of people face who enters to that place!</br>
 You can increase or decrease the capture frame inside "cv2.waitKey()" method.</br>
 As you can see the results, my face is detected and captured and saved in my memory!</br></br>
-![](result.JPG)
+![](result1.JPG)
