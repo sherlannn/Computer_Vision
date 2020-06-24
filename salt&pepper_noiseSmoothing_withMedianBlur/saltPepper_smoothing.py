@@ -9,6 +9,7 @@ input_image = cv2.imread('lenna.png', 1)
 input_image = cv2.cvtColor(input_image,cv2.COLOR_BGR2RGB)
 
 #making salt and pepper noise on image using skimage library
+#mode = s&p/gaussian/speckle
 noisy_image = random_noise(input_image, mode='s&p', seed=None, clip=True)
 noisy_image = noisy_image.astype('float32')
 
@@ -21,3 +22,6 @@ plt.subplot(132), plt.imshow(noisy_image), plt.title('Sp noise'),plt.yticks([]),
 plt.subplot(133), plt.imshow(smoothed_image), plt.title('median smoothing'),plt.yticks([]),plt.xticks([])
 
 plt.show()
+
+#cause values are between 0 and 1, for saving you should *255
+#cv2.imwrite("output.png",smoothed_image*255)
