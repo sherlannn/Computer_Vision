@@ -24,6 +24,6 @@ Edge detection using convolution and :</br>
 4.2: Robert y:</br>
 ([0 0 0]</br>
 ,[0 0 1]</br>
-,[0 -1 0])</br/</br>
+,[0 -1 0])</br></br>
 You can see the results:</br></br>
 ![](result.PNG)
