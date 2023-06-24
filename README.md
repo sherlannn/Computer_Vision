@@ -1,2 +1,2 @@
 # Comuter_Vision
-All of my "Computer_Vision" projects, are uploaded in this repository.
+This repo contains all my Computer Vision projects.
